@@ -1,0 +1,49 @@
+GET http://{{host}}/movies
+Content-Type: application/json
+
+###
+GET http://{{host}}/movies?filter_by=Title&filter=Titanic
+Content-Type: application/json
+
+###
+GET http://{{host}}/movies?order_by=Title&order=asc
+Content-Type: application/json
+
+###
+GET http://{{host}}/movies?order_by=XXX&order=asc
+Content-Type: application/json
+
+###
+GET http://{{host}}/movies?filter_by=XXX&filter=Titanic
+Content-Type: application/json
+
+###
+GET http://{{host}}/movies?order_by=Title&order=desc&filter_by=Type&filter=movie
+Content-Type: application/json
+
+###
+GET http://{{host}}/movies?order_by=Title&order=asc&filter_by=Rated&filter=PG-13
+Content-Type: application/json
+
+###
+POST http://{{host}}/movies
+Content-Type: application/json
+
+{"title":"Superman"}
+
+###
+POST http://{{host}}/movies
+Content-Type: application/json
+
+{}
+
+###
+DELETE http://{{host}}/movies/1/
+Content-Type: application/json
+
+###
+PUT http://{{host}}/movies/1/
+Content-Type: application/json
+
+{"data":{"data":{"Title":"XYZ"}}}
+###

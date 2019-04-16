@@ -1,0 +1,13 @@
+GET http://{{host}}/top
+Content-Type: application/json
+
+####
+
+GET http://{{host}}/top?dateFrom=2019-02-01 10:10:10&dateTo=2019-05-31 10:10:10
+Content-Type: application/json
+
+###
+GET http://{{host}}/top?dateFrom=2019-02-01 10:10:10
+Content-Type: application/json
+
+###

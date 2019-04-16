@@ -1,0 +1,16 @@
+GET http://{{host}}/comments
+Content-Type: application/json
+
+###
+
+GET http://{{host}}/comments?movie_id=3
+Content-Type: application/json
+
+###
+
+POST http://{{host}}/comments
+Content-Type: application/json
+
+{"movie_id":  10, "body":  "motyla nogaaaaafffaa"}
+
+###
