@@ -1,12 +1,12 @@
-##Movie API
-###Requirements:
+## Movie API
+### Requirements:
 - python 3.7
 - postgres 11.2
 
 ### API address:
 - https://movie-api-jrafa.herokuapp.com
 
-####How to setup project locally?
+### How to setup project locally?
 - Clone  project's repository:
 ```git clone https://github.com/jrafa/movie-api.git ```
 - Install dependencies: ```pipenv install``` and  ```pipenv install --dev```
